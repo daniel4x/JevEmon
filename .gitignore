@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environment
+.venv/
+.env
+.env.*
+!.env.example
+
+# Project: ROM, vendored adapter, runtime data — never committed
+vendor/
+data/
+*.gba
+*.sav
+*.ss0
+*.ss1
+*.mp4
+*.wav
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
