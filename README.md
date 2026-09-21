@@ -2,6 +2,8 @@
 
 Jev walks a real Pokémon FireRed ROM.
 
+**Bring your own ROM, we don't ship it.**
+
 Not a screenshot agent. Not a bot that mashes A. Each leg of the walk, the code reads the overworld out of RAM, works out every place you could actually go from here — a door, a path to the next route, a Pokémon Center if your party needs one — and hands that list to [Jev](https://docs.typesafe.ai/models.md). Jev picks a destination; the code paths there and presses the buttons. If a wild Pokémon interrupts the walk, Jev fights it out with the same kind of typed decision, then the journey re-plans from wherever the encounter left you.
 
 More on how this is wired: [ARCHITECTURE.md](ARCHITECTURE.md)
